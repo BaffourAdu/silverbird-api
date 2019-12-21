@@ -4,7 +4,7 @@ const axios = require("axios");
 isValidCity = (city) => {
   // Checks if the city provided has a cinema 
   cities = ['accra', 'westhills', 'ikeja', 'galleria', 'festac', 'sec-abuja', 'jabi', 'uyo' ];
-  return cities.includes(city);
+  return cities.includes(city.toLowerCase();
 }
 
 scrapeCinemaWebsite = async (city) => {
